@@ -5,7 +5,7 @@ let wininfo=document.querySelector("#winner"); //span showing winner
 let allspans=Array.from(document.getElementsByClassName("textbox")); //html collection hence use (Array.from)
 let isgameover=false;
 let linediv=document.querySelector('#line'); //line div
-let turn='X';
+let turn='X';  //to track turn
 let index=0;
 let gamediv=document.querySelector('#game');
 
